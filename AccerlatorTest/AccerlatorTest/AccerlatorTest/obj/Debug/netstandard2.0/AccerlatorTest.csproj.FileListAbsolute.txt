@@ -1,0 +1,12 @@
+F:\hwlee\Source\github\MobileSim\AccerlatorTest\AccerlatorTest\AccerlatorTest\bin\Debug\netstandard2.0\AccerlatorTest.deps.json
+F:\hwlee\Source\github\MobileSim\AccerlatorTest\AccerlatorTest\AccerlatorTest\bin\Debug\netstandard2.0\AccerlatorTest.dll
+F:\hwlee\Source\github\MobileSim\AccerlatorTest\AccerlatorTest\AccerlatorTest\bin\Debug\netstandard2.0\AccerlatorTest.pdb
+F:\hwlee\Source\github\MobileSim\AccerlatorTest\AccerlatorTest\AccerlatorTest\obj\Debug\netstandard2.0\AccerlatorTest.csprojAssemblyReference.cache
+F:\hwlee\Source\github\MobileSim\AccerlatorTest\AccerlatorTest\AccerlatorTest\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\hwlee\Source\github\MobileSim\AccerlatorTest\AccerlatorTest\AccerlatorTest\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\hwlee\Source\github\MobileSim\AccerlatorTest\AccerlatorTest\AccerlatorTest\obj\Debug\netstandard2.0\AccerlatorTest.csproj.CoreCompileInputs.cache
+F:\hwlee\Source\github\MobileSim\AccerlatorTest\AccerlatorTest\AccerlatorTest\obj\Debug\netstandard2.0\AccerlatorTest.AssemblyInfoInputs.cache
+F:\hwlee\Source\github\MobileSim\AccerlatorTest\AccerlatorTest\AccerlatorTest\obj\Debug\netstandard2.0\AccerlatorTest.AssemblyInfo.cs
+F:\hwlee\Source\github\MobileSim\AccerlatorTest\AccerlatorTest\AccerlatorTest\obj\Debug\netstandard2.0\XamlC.stamp
+F:\hwlee\Source\github\MobileSim\AccerlatorTest\AccerlatorTest\AccerlatorTest\obj\Debug\netstandard2.0\AccerlatorTest.dll
+F:\hwlee\Source\github\MobileSim\AccerlatorTest\AccerlatorTest\AccerlatorTest\obj\Debug\netstandard2.0\AccerlatorTest.pdb
