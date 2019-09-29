@@ -8,9 +8,20 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Label Text="Accelerometer Test Program" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Grid HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand">
+            <Label Text="Acc X :" Grid.Row="0" Grid.Column="0" />
+            <Label Text="          " Grid.Row="0" Grid.Column="1" x:Name="AccX" />
+            <Label Text="Acc Y :" Grid.Row="1" Grid.Column="0" />
+            <Label Text="          " Grid.Row="1" Grid.Column="1" x:Name="AccY" />
+            <Label Text="Acc Z :" Grid.Row="2" Grid.Column="0" />
+            <Label Text="          " Grid.Row="2" Grid.Column="1" x:Name="AccZ" />
+            <Button Text="시작" Grid.Row="3" Grid.Column="0" Clicked="OnStartClicked" />
+            <Button Text="종료" Grid.Row="3" Grid.Column="1" Clicked="OnStopClicked" />
+        </Grid>
     </StackLayout>
 
 </ContentPage>
