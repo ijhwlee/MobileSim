@@ -1,7 +1,6 @@
 .suo
 *.obj
 *.lock
-<<<<<<< HEAD
 *.dtbcache
 *.dll
 *.pdb
