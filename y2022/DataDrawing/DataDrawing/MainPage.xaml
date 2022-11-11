@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:datadraw="clr-namespace:DataDrawing"
+             x:Class="DataDrawing.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="5"
+            Padding="10,5"
+            VerticalOptions="Center">
+            <datadraw:DataGraphicsView
+                WidthRequest="400"
+                HeightRequest="300"
+                x:Name="myCanvas"/>
+            <HorizontalStackLayout>
+                <Button Text="측정시작"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        x:Name="StartButton"
+                        IsEnabled="True"
+                        Clicked="StartButton_Clicked"/>
+                <Button Text="측정중지"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        x:Name="StopButton"
+                        IsEnabled="False"
+                        Clicked="StopButton_Clicked"/>
+            </HorizontalStackLayout>
+            <Label Text="Mesaured"
+                   x:Name="AccValue"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   FontSize="Header"
+                   TextColor="Aquamarine"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
