@@ -319,10 +319,14 @@
           "System.Numerics.Vectors"
         ],
         "compile": {
-          "lib/monoandroid81/Xamarin.Essentials.dll": {}
+          "lib/monoandroid81/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/monoandroid81/Xamarin.Essentials.dll": {}
+          "lib/monoandroid81/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Forms/4.2.0.709249": {
@@ -335,18 +339,38 @@
           "Xamarin.Android.Support.v7.CardView": "28.0.0.1"
         },
         "compile": {
-          "lib/MonoAndroid81/FormsViewGroup.dll": {},
-          "lib/MonoAndroid81/Xamarin.Forms.Core.dll": {},
-          "lib/MonoAndroid81/Xamarin.Forms.Platform.Android.dll": {},
-          "lib/MonoAndroid81/Xamarin.Forms.Platform.dll": {},
-          "lib/MonoAndroid81/Xamarin.Forms.Xaml.dll": {}
+          "lib/MonoAndroid81/FormsViewGroup.dll": {
+            "related": ".pdb"
+          },
+          "lib/MonoAndroid81/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/MonoAndroid81/Xamarin.Forms.Platform.Android.dll": {
+            "related": ".pdb"
+          },
+          "lib/MonoAndroid81/Xamarin.Forms.Platform.dll": {
+            "related": ".Android.pdb"
+          },
+          "lib/MonoAndroid81/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/MonoAndroid81/FormsViewGroup.dll": {},
-          "lib/MonoAndroid81/Xamarin.Forms.Core.dll": {},
-          "lib/MonoAndroid81/Xamarin.Forms.Platform.Android.dll": {},
-          "lib/MonoAndroid81/Xamarin.Forms.Platform.dll": {},
-          "lib/MonoAndroid81/Xamarin.Forms.Xaml.dll": {}
+          "lib/MonoAndroid81/FormsViewGroup.dll": {
+            "related": ".pdb"
+          },
+          "lib/MonoAndroid81/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/MonoAndroid81/Xamarin.Forms.Platform.Android.dll": {
+            "related": ".pdb"
+          },
+          "lib/MonoAndroid81/Xamarin.Forms.Platform.dll": {
+            "related": ".Android.pdb"
+          },
+          "lib/MonoAndroid81/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "build": {
           "build/Xamarin.Forms.props": {},
@@ -1122,23 +1146,26 @@
   },
   "packageFolders": {
     "C:\\Users\\hwlee\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\hwlee\\Source\\github\\MobileSim\\AcceleratorTest\\AcceleratorTest\\AcceleratorTest.Android\\AcceleratorTest.Android.csproj",
+      "projectUniqueName": "F:\\github\\MobileSim\\AcceleratorTest\\AcceleratorTest\\AcceleratorTest.Android\\AcceleratorTest.Android.csproj",
       "projectName": "AcceleratorTest.Android",
-      "projectPath": "F:\\hwlee\\Source\\github\\MobileSim\\AcceleratorTest\\AcceleratorTest\\AcceleratorTest.Android\\AcceleratorTest.Android.csproj",
+      "projectPath": "F:\\github\\MobileSim\\AcceleratorTest\\AcceleratorTest\\AcceleratorTest.Android\\AcceleratorTest.Android.csproj",
       "packagesPath": "C:\\Users\\hwlee\\.nuget\\packages\\",
-      "outputPath": "F:\\hwlee\\Source\\github\\MobileSim\\AcceleratorTest\\AcceleratorTest\\AcceleratorTest.Android\\obj\\",
+      "outputPath": "F:\\github\\MobileSim\\AcceleratorTest\\AcceleratorTest\\AcceleratorTest.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\hwlee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1147,13 +1174,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "G:\\Source\\AspDotNet\\DotNet6\\SharedLibrary": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.devexpress.com/bQOMKIPWyO8hj9J4hIvmRlTLQ3SfbOWlaNbBOwPgWngRD6rSVX/api": {}
       },
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "F:\\hwlee\\Source\\github\\MobileSim\\AcceleratorTest\\AcceleratorTest\\AcceleratorTest\\AcceleratorTest.csproj": {
-              "projectPath": "F:\\hwlee\\Source\\github\\MobileSim\\AcceleratorTest\\AcceleratorTest\\AcceleratorTest\\AcceleratorTest.csproj"
+            "F:\\github\\MobileSim\\AcceleratorTest\\AcceleratorTest\\AcceleratorTest\\AcceleratorTest.csproj": {
+              "projectPath": "F:\\github\\MobileSim\\AcceleratorTest\\AcceleratorTest\\AcceleratorTest\\AcceleratorTest.csproj"
             }
           }
         }
