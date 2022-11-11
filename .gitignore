@@ -1,6 +1,7 @@
 .suo
 *.obj
 *.lock
+<<<<<<< HEAD
 *.dtbcache
 *.dll
 *.pdb
@@ -13,3 +14,7 @@
 .vs/
 x64/
 obj/
+=======
+./**/bin
+./**/obj
+>>>>>>> a27979088eca4d8993e24debb062496ed673d8af
