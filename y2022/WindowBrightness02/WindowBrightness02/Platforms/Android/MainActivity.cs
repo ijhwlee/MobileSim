@@ -23,11 +23,7 @@ public class MainActivity : MauiAppCompatActivity
   {
     if (Build.VERSION.SdkInt >= BuildVersionCodes.M)
     {
-      if (Settings.System.CanWrite(c))
-      {
-
-      }
-      else
+      if (!Settings.System.CanWrite(c))
       {
         Intent i = new Intent(Settings.ActionManageWriteSettings);
         c.StartActivity(i);
