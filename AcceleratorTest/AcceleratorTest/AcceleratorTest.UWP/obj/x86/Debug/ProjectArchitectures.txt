@@ -1,1 +1,0 @@
-F:\hwlee\Source\github\MobileSim\AcceleratorTest\AcceleratorTest\AcceleratorTest.UWP\AcceleratorTest.UWP.csproj;x86
