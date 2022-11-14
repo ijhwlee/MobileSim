@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace WindowBrightness02
 {
-    public class MauiService
+  public class MauiService
+  {
+    Label m_lightLabel;
+    public MauiService(Label label)
     {
-        Label m_lightLabel;
-        public MauiService(Label label)
-        {
-            m_lightLabel = label;
-        }
-        public void SetLightLevel(int level)
-        {
-            m_lightLabel.Text = String.Format("화면 밝기 : {0, 3}", level);
-        }
+      m_lightLabel = label;
     }
+    public void SetLightLevel(int level)
+    {
+      m_lightLabel.Text = String.Format("화면 밝기 : {0, 3}", level);
+    }
+  }
 }

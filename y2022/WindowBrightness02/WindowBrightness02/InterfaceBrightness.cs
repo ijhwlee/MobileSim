@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace WindowBrightness02
 {
-    public interface InterfaceBrightness
-    {
-        void TransferObject(MauiService service);
-        void StartLightSensor();
-        void StopLightSensor();
-    }
+  public interface InterfaceBrightness
+  {
+    void TransferObject(MauiService service);
+    void StartLightSensor();
+    void StopLightSensor();
+  }
 }

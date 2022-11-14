@@ -10,28 +10,28 @@ namespace WindowBrightness02;
 [Activity(Theme = "@style/Maui.SplashTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize | ConfigChanges.Density)]
 public class MainActivity : MauiAppCompatActivity
 {
-    public static SensorManager m_sensorManager;
-    public static ContentResolver m_contentResolver;
-    protected override void OnCreate(Bundle savedInstanceState)
+  public static SensorManager m_sensorManager;
+  public static ContentResolver m_contentResolver;
+  protected override void OnCreate(Bundle savedInstanceState)
+  {
+    base.OnCreate(savedInstanceState);
+    askPermission(this);
+    m_sensorManager = (SensorManager)GetSystemService(Context.SensorService);
+    m_contentResolver = this.ContentResolver;
+  }
+  public void askPermission(Context c)
+  {
+    if (Build.VERSION.SdkInt >= BuildVersionCodes.M)
     {
-        base.OnCreate(savedInstanceState);
-        askPermission(this);
-        m_sensorManager = (SensorManager)GetSystemService(Context.SensorService);
-        m_contentResolver = this.ContentResolver;
-    }
-    public void askPermission(Context c)
-    {
-        if(Build.VERSION.SdkInt >= BuildVersionCodes.M)
-        {
-            if (Settings.System.CanWrite(c))
-            {
+      if (Settings.System.CanWrite(c))
+      {
 
-            }
-            else
-            {
-                Intent i = new Intent(Settings.ActionManageWriteSettings);
-                c.StartActivity(i);
-            }
-        }
+      }
+      else
+      {
+        Intent i = new Intent(Settings.ActionManageWriteSettings);
+        c.StartActivity(i);
+      }
     }
+  }
 }
