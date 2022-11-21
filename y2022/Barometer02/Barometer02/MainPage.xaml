@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Barometer02.MainPage">
+
+  <ScrollView>
+    <VerticalStackLayout
+      Spacing="25"
+      Padding="30,0"
+      VerticalOptions="Center">
+
+      <Image
+        Source="dotnet_bot.png"
+        SemanticProperties.Description="Cute dot net bot waving hi to you!"
+        HeightRequest="200"
+        HorizontalOptions="Center" />
+
+      <Label
+        Text="Hello, World!"
+        SemanticProperties.HeadingLevel="Level1"
+        FontSize="32"
+        HorizontalOptions="Center" />
+
+      <Label
+        Text="Measured value of Device Sensor"
+        x:Name="valueLabel"
+        SemanticProperties.HeadingLevel="Level2"
+        SemanticProperties.Description="Measured value of Device Sensor"
+        FontSize="18"
+        HorizontalOptions="Center" />
+
+      <HorizontalStackLayout
+        Spacing="25"
+        Padding="30,0"
+        HorizontalOptions="Center">
+        <Button
+          x:Name="StartBtn"
+          Text="Start"
+          IsEnabled="True"
+          SemanticProperties.Hint="Start measurement for specified sensor"
+          Clicked="StartBtn_Clicked"
+          HorizontalOptions="Center" />
+        <Button
+          x:Name="StopBtn"
+          Text="Stop"
+          IsEnabled="False"
+          SemanticProperties.Hint="Stop measurement for specified sensor"
+          Clicked="StopBtn_Clicked"
+          HorizontalOptions="Center" />
+      </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+  </ScrollView>
+
+</ContentPage>
