@@ -28,6 +28,20 @@
         SemanticProperties.Description="Measured value of Device Sensor"
         FontSize="18"
         HorizontalOptions="Center" />
+      <Label
+        Text="Measured Altitude"
+        x:Name="heightLabel"
+        SemanticProperties.HeadingLevel="Level2"
+        SemanticProperties.Description="Measured Altitude"
+        FontSize="18"
+        HorizontalOptions="Center" />
+      <Label
+        Text="Measured Altitude"
+        x:Name="altitudeLabel"
+        SemanticProperties.HeadingLevel="Level2"
+        SemanticProperties.Description="Measured Altitude"
+        FontSize="18"
+        HorizontalOptions="Center" />
 
       <HorizontalStackLayout
         Spacing="25"
