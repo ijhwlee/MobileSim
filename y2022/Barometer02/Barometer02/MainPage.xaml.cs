@@ -66,7 +66,7 @@ namespace Barometer02
     private double GetAltitude(double pressure)
     {
       // P + rho *g * h = P0, P0 = 1013.25hPa, rho = 1.225 kg/m^3, g = 9.80665 m/s^2, h = (P0-P)/(rho*g)
-      double h = (P0-pressure) / (rho * g);
+      double h = (P0-pressure) / (rho * g) *100; // P is measured in hPa, so multiply 100 to get Pa result
       return h;
     }
     private double GetEmpiricalAltitude(double pressure)
