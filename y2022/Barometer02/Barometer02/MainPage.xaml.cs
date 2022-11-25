@@ -74,7 +74,7 @@ namespace Barometer02
       // empirical formula
       // p = p0*(1-L*h/T0)^(g*M/R0*L)
       // h = T0/L*(1-(p/p0)^(R0*L/(g*L)))
-      double h = T0/L*(1-Math.Pow(pressure/P0, R0*L/(g*L)));
+      double h = T0/L*(1-Math.Pow(pressure/P0, R0*L/(g*M)));
       return h;
     }
   }
