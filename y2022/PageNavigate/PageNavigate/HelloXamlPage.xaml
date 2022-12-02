@@ -14,8 +14,8 @@
             FontAttributes="Bold"
             TextColor="Green"/>
     <Button Text="Click Me!"
-            x:Name="ToggleRoate"
+            x:Name="ToggleRotate"
             HorizontalOptions="Center"
-            Clicked="ToggleRoate_Clicked" />
+            Clicked="ToggleRotate_Clicked" />
     </VerticalStackLayout>
 </ContentPage>
