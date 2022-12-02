@@ -3,11 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PageNavigate.HelloXamlPage"
              Title="HelloXamlPage">
-    <StackLayout HeightRequest="500">
+    <VerticalStackLayout>
     <Label 
             Text="Welcome to .NET MAUI!"
-        x:Name="LabelHello"
-            VerticalOptions="Center" 
+            x:Name="LabelHello"
+            HeightRequest="400"
+            VerticalOptions="End"
             HorizontalTextAlignment="Center"
             FontSize="28"
             Rotation="-20"
@@ -17,5 +18,5 @@
             x:Name="ToggleRoate"
             HorizontalOptions="Center"
             Clicked="ToggleRoate_Clicked" />
-    </StackLayout>
+    </VerticalStackLayout>
 </ContentPage>
