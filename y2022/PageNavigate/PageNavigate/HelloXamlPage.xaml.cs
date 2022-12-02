@@ -6,4 +6,9 @@ public partial class HelloXamlPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	private void ToggleRoate_Clicked(object sender, EventArgs e)
+	{
+		LabelHello.Rotation = LabelHello.Rotation + 10;
+	}
 }

@@ -2,7 +2,7 @@
 
 public partial class MainPage : ContentPage
 {
-
+	HelloXamlPage helloPage = new HelloXamlPage();
 	public MainPage()
 	{
 		InitializeComponent();
@@ -14,7 +14,7 @@ public partial class MainPage : ContentPage
 		};
 		button.Clicked += async (sender, args) =>
 		{
-			await Navigation.PushAsync(new PageNavigate.HelloXamlPage());
+			await Navigation.PushAsync(helloPage);
 		};
 		Content = button;
 	}
