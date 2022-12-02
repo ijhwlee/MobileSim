@@ -7,7 +7,6 @@
     <Label 
             Text="Welcome to .NET MAUI!"
             x:Name="LabelHello"
-            HeightRequest="400"
             VerticalOptions="End"
             HorizontalTextAlignment="Center"
             FontSize="28"
