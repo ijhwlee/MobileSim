@@ -13,7 +13,7 @@
             Rotation="-20"
             FontAttributes="Bold"
             TextColor="Green"/>
-    <Button Text="Click Me!"
+    <Button Text="Start Rotate"
             x:Name="ToggleRotate"
             HorizontalOptions="Center"
             Clicked="ToggleRotate_Clicked" />

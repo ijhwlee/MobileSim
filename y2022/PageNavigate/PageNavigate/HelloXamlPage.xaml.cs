@@ -18,11 +18,13 @@ public partial class HelloXamlPage : ContentPage
 		{
 			timer.Start();
 			ToggleRotate.BackgroundColor = Colors.Red;
+			ToggleRotate.Text= "Stop Rotate";
 		}
 		else
 		{
 			timer.Stop();
       ToggleRotate.BackgroundColor = Colors.Blue;
+      ToggleRotate.Text = "Start Rotate";
     }
   }
 	private void SetTimer()
