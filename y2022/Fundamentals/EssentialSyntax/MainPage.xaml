@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EssentialSyntax.MainPage"
+             Title="Grid Demo Page">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="200" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="Auto" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="200" />
+    </Grid.ColumnDefinitions>
+
+    <Label Text="Autosized cell"
+      TextColor="White"
+      BackgroundColor="Blue" />
+    <BoxView Color="Silver"
+      Grid.Column="1" />
+    <BoxView Color="Teal"
+      Grid.Row="1" />
+    <Image
+      Source="dotnet_bot.png"
+      Grid.Row="1" Grid.Column="1"
+      SemanticProperties.Description="Cute dot net bot waving hi to you!"
+      BackgroundColor="Aqua"
+      HorizontalOptions="Center" 
+      VerticalOptions="Center"/>
+    <Label Text="Span two rows (or more if you want)"
+      Grid.Column="2" Grid.RowSpan="2"
+      TextColor="Yellow"
+      BackgroundColor="Blue"
+      HorizontalTextAlignment="Center"
+      VerticalTextAlignment="Center" />
+    <Label Text="Span two columns"
+      Grid.Row="2" Grid.ColumnSpan="2"
+      TextColor="Blue"
+      BackgroundColor="Yellow"
+      HorizontalTextAlignment="Center"
+      VerticalTextAlignment="Center" />
+    <Label Text="Fixed 200x200"
+      Grid.Row="2" Grid.Column="2"
+      TextColor="Aqua"
+      BackgroundColor="Red"
+      HorizontalTextAlignment="Center"
+      VerticalTextAlignment="Center" />
+  </Grid>
+</ContentPage>

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PageNavigate", "PageNavigate\PageNavigate.csproj", "{1EC0E152-4FBB-42F6-A777-20E2E4A4022E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialSyntax", "EssentialSyntax\EssentialSyntax.csproj", "{20DC689B-1875-4CA9-8CA1-5C6B310579CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,12 @@ Global
 		{1EC0E152-4FBB-42F6-A777-20E2E4A4022E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EC0E152-4FBB-42F6-A777-20E2E4A4022E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1EC0E152-4FBB-42F6-A777-20E2E4A4022E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{20DC689B-1875-4CA9-8CA1-5C6B310579CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20DC689B-1875-4CA9-8CA1-5C6B310579CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20DC689B-1875-4CA9-8CA1-5C6B310579CE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{20DC689B-1875-4CA9-8CA1-5C6B310579CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20DC689B-1875-4CA9-8CA1-5C6B310579CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20DC689B-1875-4CA9-8CA1-5C6B310579CE}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
