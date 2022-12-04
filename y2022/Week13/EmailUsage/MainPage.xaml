@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmailUsage.MainPage">
+
+  <ScrollView>
+    <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+      <HorizontalStackLayout
+        Spacing="25"
+        Padding="30,0"
+        HorizontalOptions="Center">
+        <Label Text="전자메일 주소 :"
+               FontSize="18"
+               HorizontalTextAlignment="End" />
+        <Editor Text="주소를 입력하시오"
+                FontSize="18"
+                x:Name="EditorEmail"
+                WidthRequest="400"
+                HorizontalTextAlignment="Start" />
+      </HorizontalStackLayout>
+      <Button
+                x:Name="SendEmail"
+                Text="발송"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="SendEmail_Clicked"
+                HorizontalOptions="Center" />
+      <Label Text=""
+             TextColor="Red"
+             HorizontalOptions="Center"
+             HorizontalTextAlignment="Start"
+             x:Name="LabelMessage"/>
+    </VerticalStackLayout>
+  </ScrollView>
+
+</ContentPage>
