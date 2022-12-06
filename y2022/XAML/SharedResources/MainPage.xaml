@@ -9,7 +9,7 @@
     <LayoutOptions x:Key="vertOptions"
                        Alignment="Center" />
     <x:Double x:Key="borderWidth">5</x:Double>
-    <x:Double x:Key="rotationAngle">15</x:Double>
+    <x:Double x:Key="rotationAngle">-15</x:Double>
     <x:Double x:Key="fontSize">45</x:Double>
     <OnPlatform x:Key="textColor"
                     x:TypeArguments="Color">

@@ -8,8 +8,8 @@
              Padding="5,25,5,0">
   <StackLayout>
     <Label Text="Hello, XAML!"
-              TextColor="{x:Static local:AppConstants.BackgroundColor}"
-              BackgroundColor="{x:Static local:AppConstants.ForegroundColor}"
+              TextColor="{x:Static local:AppConstants.ForegroundColor}"
+              BackgroundColor="{x:Static local:AppConstants.BackgroundColor}"
               FontAttributes="Bold"
               FontSize="30"
               HorizontalOptions="Center" />
